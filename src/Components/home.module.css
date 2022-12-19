@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+   justify-content: space-around;
+   align-items:center;
+  border-bottom: 2px solid white;
+}
+#nav>a{
+
+    color: rgb(16, 225, 225);
+    text-decoration: none;
+    font: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-style: italic;
+    text-shadow: 1px 1px 2px;
+    
+
+}
+#container{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgb(0, 204, 255),black)
+
+}
+#container>form{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    flex-direction: column;
+    line-height: 50px;
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-style: italic;
+}
+#container>form>button{
+    height: 35px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: rgb(12, 234, 234);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: bolder;
+    border: none;
+}
+#container>form>button:hover{
+    transform: scale(1.1);
+}
+#box{
+   height: 90vh;
+   width: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+    background:linear-gradient(rgb(0, 204, 255),black)
+   
+}
+#usebox{
+    height: 250px;
+    width: 250px;
+    background:linear-gradient(black,white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-style: bold;
+}
+td{
+    padding: 10px;
+}
+#both{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#btn{
+    height: 25px;
+    width: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+#btn>a{
+    font-size: larger;
+
+    text-decoration: none;
+    font-weight: lighter;
+color: black;
+    display: flex;
+    justify-content: center;
+
+}
+#btn:hover{
+    transform: scale(1.1);
+}
+
+#del{
+    height: 25px;
+    width: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+#del>a{
+    font-size: larger;
+    
+    text-decoration: none;
+    font-weight: lighter;
+    color: black;
+    display: flex;
+    justify-content: center;
+
+}
+#del:hover{
+    transform: scale(1.1);
+}
